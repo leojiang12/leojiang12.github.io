@@ -7,12 +7,16 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
-  { text: '首页', link: '/' },
-  { text: '博客', link: '/blog/' },
-  { text: '标签', link: '/blog/tags/' },
-  { text: '归档', link: '/blog/archives/' },
-  {
-    text: '笔记',
-    items: [{ text: '示例', link: '/demo/README.md' }]
+   { text: 'Home', link: '/', icon: 'carbon:home' },
+  { text: 'Blog', link: '/blog/', icon: 'carbon:blog' },
+  { text: 'Notes', link: '/notes/', icon: 'carbon:notebook' },
+  { text: 'Posts', link: '/posts/' },
+
+  { text: 'Learning Map', 
+    icon: 'gis:map-route', 
+    items: [
+      { text: 'Self-Learning Map', link: '/self-study/README.md', icon: 'mage:robot-wink' },
+      { text: 'Big Picture', link: '/self-study/README.md', icon: 'mdi:book-open-page-variant-outline' },
+    ]
   },
 ])
