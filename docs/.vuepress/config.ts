@@ -16,7 +16,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'en-US',
-  title: 'Leo&#x27;s Blog',
+  title: 'Leo\'s Blog',
   description: '',
 
   head: [
