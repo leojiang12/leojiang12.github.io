@@ -40,17 +40,17 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+  footer: {
+    message: 'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+    copyright: 'Copyright © 2026 Leo Jiang.',
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
     avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'Leo&#x27;s Blog',
+    name: 'Leo\'s Blog',
     description: '',
     // circle: true,
     // location: '',
