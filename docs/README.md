@@ -6,13 +6,13 @@ config:
     type: hero
     full: true
     forceDark: true
-    effect: tint-plate
+    effect: dark-veil
     effectConfig:
       key: value
     hero:
-      name: Theme Plume
+      name: Leo's Blog
       tagline: VuePress Next Theme
-      text: A simple, feature-rich, document & blog
+      text: Hi, I'm Leo. A curious physics major and aspiring researcher in computer vision and computer graphics. 
       actions:
         -
           theme: brand
@@ -21,5 +21,5 @@ config:
         -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/leojiang12
 ---

@@ -10,7 +10,6 @@ export default defineNavbarConfig([
    { text: 'Home', link: '/', icon: 'carbon:home' },
   { text: 'Blog', link: '/blog/', icon: 'carbon:blog' },
   { text: 'Notes', link: '/notes/', icon: 'carbon:notebook' },
-  { text: 'Posts', link: '/posts/' },
 
   { text: 'Learning Map', 
     icon: 'gis:map-route', 
